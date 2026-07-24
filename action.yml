@@ -1,0 +1,7 @@
+name: R6 Redirect Fixture
+description: Owned harmless action for redirect policy validation
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "R6_ACTION_MARKER=TRUSTED_BASELINE"
