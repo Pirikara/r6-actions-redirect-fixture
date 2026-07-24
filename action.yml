@@ -4,4 +4,4 @@ runs:
   using: composite
   steps:
     - shell: bash
-      run: echo "R6_ACTION_MARKER=TRUSTED_BASELINE"
+      run: echo "R6_ACTION_MARKER=POLICY_DISALLOWED_TARGET_EXECUTED"
